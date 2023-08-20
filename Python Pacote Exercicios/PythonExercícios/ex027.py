@@ -1,0 +1,5 @@
+print('Vamos mostrar o primeiro e último nome digitado.')
+nome = str(input('Digite um nome completo qualquer: ')).upper().strip()
+nd = nome.split()
+print('Prazer em conhece-lo {}!'.format(nome))
+print('Seu primeiro nome é {}, e o último é {}.'.format(nd[0], nd[-1]))
